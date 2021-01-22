@@ -62,7 +62,7 @@ if (countRecords > 0 && countOnPage > 0)
     }
 
     //Middle part
-    @if (countPages > 1)
+    if (countPages > 1)
     {
         for (int i = currentPage - left; i <= currentPage + right; i++)
         {
